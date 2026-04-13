@@ -1,0 +1,11 @@
+n=int(input())
+for i in range(n):
+    t=int(input())
+    if t==2:
+        print(2)
+    elif t==3:
+        print(3)
+    elif t%2==0:
+        print(0)
+    else:
+        print(1)
