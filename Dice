@@ -1,0 +1,14 @@
+t = int(input())
+for i in range(t):
+    n = int(input())
+    a = list(map(int, input().split()))
+    ans = 0
+    j = 0
+    while i < n - 1:
+        
+        if a[i]==a[i+1] or a[i]+a[i+1]==7:
+            ans = ans + 1
+            i = i + 2
+        else:
+            i = i + 1           
+    print(ans)
