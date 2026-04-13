@@ -1,0 +1,6 @@
+t = int(input())
+for i in range(t):
+    n=list(map(int, input().split()))
+    x = 2 * max(n) - sum(n)
+    print(x)
+
