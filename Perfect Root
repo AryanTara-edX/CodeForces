@@ -1,0 +1,6 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    for j in range(0,n):
+        print((2**j), end=" ")
+    print()
