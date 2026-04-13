@@ -1,0 +1,14 @@
+t=int(input())
+for i in range(t):
+    num=list(map(int, input().split()))
+    l=len(num)
+    sum=0
+    for j in range(0,l-1):
+        if num[j]==num[j+1]:
+            sum+=1
+        else:
+            sum+=0
+    if sum==l-1:
+        print("YES")
+    else:
+        print("NO")
