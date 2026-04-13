@@ -1,0 +1,14 @@
+t=int(input())
+for i in range(t):
+    n=int(input())
+    num = list(map(int, input().split()))
+    num.sort()
+    flag=0
+    for j in range(n):
+        if num[j]==67:
+            flag+=1    
+    if flag==0:
+        print("NO")
+    else:
+        print("YES")
+        
