@@ -1,0 +1,11 @@
+t = int(input())
+for _ in range(t):
+    a, b, c = map(int, input().split())
+    total = a + b + c
+    target = total // 3
+    if total % 3 != 0:
+        print("NO")
+    elif b > target:
+        print("NO")
+    else:
+        print("YES")
